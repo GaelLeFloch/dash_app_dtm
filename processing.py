@@ -39,4 +39,5 @@ for document in documents:
         sublist.append(word)
     corpus.append(sublist)
 
+# corpus est une liste de liste contenant des mots lemmatisé
 pickle.dump(corpus, open('corpus_geo.pkl', 'wb'))
