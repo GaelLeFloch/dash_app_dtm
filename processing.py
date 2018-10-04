@@ -27,7 +27,7 @@ def lemmatize(t):
     return t
 
 
-# Prend environ 20 min à tout traiter
+# Prend environ 20 moin à tut traiter
 i = 0
 corpus = []
 for document in documents:
@@ -40,4 +40,3 @@ for document in documents:
     corpus.append(sublist)
 
 pickle.dump(corpus, open('corpus_geo.pkl', 'wb'))
-

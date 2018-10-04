@@ -26,6 +26,6 @@ nb_topics = 10
 model = DtmModel(dtm_path, corpus, time_slice, num_topics=nb_topics,
                  id2word=dictionary, initialize_lda=True)
 
-model.save("DTMAll")
+model.save("DTMModel")
 
 print("---- %s seconds ----" % (time.time() - start_time))
